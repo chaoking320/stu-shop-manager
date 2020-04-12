@@ -10,7 +10,7 @@ const tailLayout = {
   wrapperCol: { offset: 8, span: 16 },
 };
 
-const Edit = () => {
+const Demo = () => {
   const onFinish = values => {
     console.log('Success:', values);
   };
@@ -44,12 +44,12 @@ const Edit = () => {
       </Form.Item>
 
       <Form.Item {...tailLayout}>
-        <Button type="primary" htmlType="sbmit">
-          保存
+        <Button type="primary" htmlType="保存">
+          Submit
         </Button>
       </Form.Item>
     </Form>
   );
 }
 
-export default Edit;
+export default Demo;
