@@ -1,0 +1,705 @@
+@import url(bootstrap.css) screen;
+
+
+.header-section {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.34);
+    border: none;
+    border-radius: 0;
+    min-height: auto;
+    margin-bottom: 0;
+}
+.navbar-nav {
+    float: inherit;
+    text-align: center;
+    display: inline-block;
+    height: 23px;
+/*    padding: 15px 0;*/
+}
+
+div#bs-example-navbar-collapse-1 {
+    /* display: block; */
+    text-align: center;
+    top: 16px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.navbar-default .navbar-nav li.logo{
+    position: relative;
+    height: 80px;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+    margin-left: 0
+}
+.navbar-default .navbar-nav li.logo{
+    position: relative;
+    height: 80px;
+}
+.navbar-default .navbar-nav li.logo a.navbar-brand span{
+    display: block;
+    position:  relative;
+    font-size: 60px;
+    z-index: 99;
+    top: 38px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.fixed .navbar-default .navbar-nav li.logo a.navbar-brand span{
+    display: block;
+    position:  relative;
+    font-size: 30px;
+    z-index: 99;
+    top: 26px;
+}
+.navbar-default .navbar-nav li.logo .navbar-brand {
+  position: relative;
+  width: 250px;
+  height: 60px;
+  background-color: #f4392f;
+  margin: 72.17px 0;
+  border-left: solid 4px #000000;
+  border-right: solid 4px #000000;
+  top: -100px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+.fixed .navbar-default .navbar-nav li.logo .navbar-brand{
+    height: 16px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.navbar-default .navbar-nav li.logo .navbar-brand:before,
+.navbar-default .navbar-nav li.logo .navbar-brand:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 176.78px;
+  height: 176.78px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  -moz-transform: scaleY(0.5774) rotate(-45deg);
+  -o-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 32.6117px;
+  opacity: 1
+}
+
+.navbar-default .navbar-nav li.logo .navbar-brand:before {
+  top: -88.3883px;
+  border-top: solid 5.6569px #000000;
+  border-right: solid 5.6569px #000000;
+}
+
+.navbar-default .navbar-nav li.logo .navbar-brand:after {
+  bottom: -88.3883px;
+  border-bottom: solid 5.6569px #000000;
+  border-left: solid 5.6569px #000000;
+}
+
+
+.navbar-default .navbar-nav > li {
+    padding: 15px 25px;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0;
+}
+.navbar-default .navbar-nav li.active a, .navbar-default .navbar-nav li.active a:hover{
+    background: transparent;
+    color:#fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+.navbar-default .navbar-nav li.active a:before{
+    position: absolute;
+    top: -10px;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #f3392f;
+    display: block;
+    opacity: 1;
+}
+.navbar-default .navbar-nav li.active a:after{
+    position: absolute;
+    bottom: -10px;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #f3392f;
+    display: block;
+    opacity: 1;
+}
+
+.navbar-toggle{
+    top: -8px;
+}
+
+.cover-section{
+    position:  relative;
+    top: 0;
+    z-index: 99;
+    padding: 0 !important;
+    display: table;
+    padding: 50px 0 65px;
+    min-height: 100%;
+    display: block;
+    background: url(../images/cover.jpg) no-repeat;
+    background-size: cover;
+}
+    .cover-section:before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8)
+    }
+
+    .counter-box{
+        text-align: center;
+        display: block;
+        margin-top: 10%;
+    }
+    .counter-box h1{
+        font-size: 55px;
+        font-weight: 700;
+        color: #f26522;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 10px;
+    }
+    .counter-box h2{
+        font-size: 80px;
+        color: #fff;
+        font-weight: 300;
+        margin: 0;
+        text-transform: uppercase;
+        padding: 0;
+        margin-bottom: 40px
+    }
+    .counter-box h3{
+        font-size: 24px;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .counter-box p{
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+     .counter-box p:nth-child(1){
+         color: #52bdeb
+     }
+
+    .counter-box a{
+        display: inline-block;
+        border: 1px solid #fff;
+        text-decoration: none;
+        text-align: center;
+        outline: none;
+        border-radius: 20px;
+        padding: 10px 10px 20px;
+        color: #fff;
+        margin-top: 80px;
+        z-index: 999999999999999 !important;
+        position: relative;
+    }
+
+
+    @media (max-width: 1020px) {
+
+
+        .navbar-default .navbar-nav > li {
+            padding: 10px 10px;
+        }
+        .navbar-default .navbar-nav li.logo .navbar-brand {
+              position: relative;
+              width: 150px;
+              height: 86.60px;
+              background-color: #ff0000;
+              margin: 43.30px 0;
+              border-left: solid 2px #333333;
+              border-right: solid 2px #333333;
+            }
+    
+            .navbar-default .navbar-nav li.logo .navbar-brand:before,
+            .navbar-default .navbar-nav li.logo .navbar-brand:after {
+              content: "";
+              position: absolute;
+              z-index: 1;
+              width: 106.07px;
+              height: 106.07px;
+              -webkit-transform: scaleY(0.5774) rotate(-45deg);
+              -ms-transform: scaleY(0.5774) rotate(-45deg);
+              -moz-transform: scaleY(0.5774) rotate(-45deg);
+              -o-transform: scaleY(0.5774) rotate(-45deg);
+              transform: scaleY(0.5774) rotate(-45deg);
+              background-color: inherit;
+              left: 19.9670px;
+            }
+    
+            .navbar-default .navbar-nav li.logo .navbar-brand:before {
+              top: -53.0330px;
+              border-top: solid 2.8284px #333333;
+              border-right: solid 2.8284px #333333;
+            }
+    
+            .navbar-default .navbar-nav li.logo .navbar-brand:after {
+              bottom: -53.0330px;
+              border-bottom: solid 2.8284px #333333;
+              border-left: solid 2.8284px #333333;
+            }
+    
+            .navbar-default .navbar-nav li.logo a.navbar-brand span {
+                display: block;
+                position: relative;
+                font-size: 30px;
+                z-index: 99;
+                top: 80px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+            .navbar-default .navbar-nav li.logo .navbar-brand {
+                top: -140px;
+            }
+            .fixed .navbar-default .navbar-nav li.logo a.navbar-brand span {
+                display: block;
+                position: relative !important;
+                font-size: 24px;
+                z-index: 99;
+                top: 14px;
+            }
+            .fixed .navbar-default .navbar-nav li.logo .navbar-brand {
+                height: 16px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                top: -60px;
+            }
+            .navbar-nav {
+                float: inherit;
+                text-align: center;
+                display: inline-block;
+                height: 23px;
+                /* padding: 15px 0; */
+                position: relative;
+                top: 6px;
+            }
+            .mobile-logo {
+                display: none;
+            }
+            .counter-box h2{
+                font-size:50px;
+            }
+    
+    
+    
+    }
+
+    .couner-box .days {
+        color: #52bdeb;
+    }
+
+    .couner-box .hours {
+        color: #5bed74;
+    }
+    .couner-box .minutes {
+        color: #f6a22c;
+    }
+    .couner-box .seconds {
+        color: #f43a30;
+    }
+
+    .couner-box{
+        width: 125px;
+        height: 95px;
+        margin: 0 15px;
+        display: block;
+        text-align: center;
+        padding-top: 4%;
+        margin-bottom: 20px;
+    }
+    .couner-box {
+      position: relative;
+      width: 160px;
+      height: 92.38px;
+      background-color: transparent;
+      margin: 46.19px 15px;
+      border-left: solid 2px #ffffff;
+      border-right: solid 2px #ffffff;
+      float: left;
+    }
+
+    .couner-box:before,
+    .couner-box:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      width: 113.14px;
+      height: 113.14px;
+      -webkit-transform: scaleY(0.5774) rotate(-45deg);
+      -ms-transform: scaleY(0.5774) rotate(-45deg);
+      -moz-transform: scaleY(0.5774) rotate(-45deg);
+      -o-transform: scaleY(0.5774) rotate(-45deg);
+      transform: scaleY(0.5774) rotate(-45deg);
+      background-color: inherit;
+      left: 21.4315px;
+    }
+
+    .couner-box:before {
+      top: -56.5685px;
+      border-top: solid 2.8284px #ffffff;
+      border-right: solid 2.8284px #ffffff;
+    }
+
+    .couner-box:after {
+      bottom: -56.5685px;
+      border-bottom: solid 2.8284px #ffffff;
+      border-left: solid 2.8284px #ffffff;
+    }
+
+
+    #countdowntimer{
+        display: block;
+        /*width: 100%;    */
+        overflow: hidden;
+    }
+
+    .countdown{
+        width: 100%;
+        display: block;
+    }
+
+    .couner-box b{
+        font-size: 55px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        font-size: 72px;
+    }
+    .couner-box p{
+        font-size: 35px;
+        font-weight: 300;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 8px;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -moz-transform: scaleY(0.5774) rotate(-45deg);
+        -o-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        position: relative;
+        left: 50px;
+        top: 38px;
+        text-shadow: -8px 9px 3px #fff;
+    }
+    .couner-box .days {
+        color: #52bdeb;
+    }
+
+    .couner-box .hours {
+        color: #5bed74;
+    }
+    .couner-box .minutes {
+        color: #f6a22c;
+    }
+    .couner-box .seconds {
+        color: #f43a30;
+    }
+    
+    
+@media (min-width: 1020px){
+    html, body, .wrapper,.container-fluid, .row, .cover-section{
+        height: 100% !important;
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1020px) {
+
+
+    .navbar-default .navbar-nav > li {
+        padding: 10px 10px;
+    }
+    .navbar-default .navbar-nav li.logo .navbar-brand {
+          position: relative;
+          width: 150px;
+          height: 86.60px;
+          background-color: #ff0000;
+          margin: 43.30px 0;
+          border-left: solid 2px #333333;
+          border-right: solid 2px #333333;
+        }
+
+        .navbar-default .navbar-nav li.logo .navbar-brand:before,
+        .navbar-default .navbar-nav li.logo .navbar-brand:after {
+          content: "";
+          position: absolute;
+          z-index: 1;
+          width: 106.07px;
+          height: 106.07px;
+          -webkit-transform: scaleY(0.5774) rotate(-45deg);
+          -ms-transform: scaleY(0.5774) rotate(-45deg);
+          -moz-transform: scaleY(0.5774) rotate(-45deg);
+          -o-transform: scaleY(0.5774) rotate(-45deg);
+          transform: scaleY(0.5774) rotate(-45deg);
+          background-color: inherit;
+          left: 19.9670px;
+        }
+
+        .navbar-default .navbar-nav li.logo .navbar-brand:before {
+          top: -53.0330px;
+          border-top: solid 2.8284px #333333;
+          border-right: solid 2.8284px #333333;
+        }
+
+        .navbar-default .navbar-nav li.logo .navbar-brand:after {
+          bottom: -53.0330px;
+          border-bottom: solid 2.8284px #333333;
+          border-left: solid 2.8284px #333333;
+        }
+
+        .navbar-default .navbar-nav li.logo a.navbar-brand span {
+            display: block;
+            position: relative;
+            font-size: 30px;
+            z-index: 99;
+            top: 80px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        .navbar-default .navbar-nav li.logo .navbar-brand {
+            top: -140px;
+        }
+        .fixed .navbar-default .navbar-nav li.logo a.navbar-brand span {
+            display: block;
+            position: relative !important;
+            font-size: 24px;
+            z-index: 99;
+            top: 14px;
+        }
+        .fixed .navbar-default .navbar-nav li.logo .navbar-brand {
+            height: 16px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            top: -60px;
+        }
+        .navbar-nav {
+            float: inherit;
+            text-align: center;
+            display: inline-block;
+            height: 23px;
+            /* padding: 15px 0; */
+            position: relative;
+            top: 6px;
+        }
+        .mobile-logo {
+            display: none;
+        }
+        .counter-box h2{
+            font-size:50px;
+        }
+
+
+
+}
+
+@media (max-width: 768px){
+     .navbar-default .navbar-nav li.logo {
+        position: relative;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        display: inline-block;
+        width: 300px;
+        top: 0;
+        display: none;
+    }
+    .navbar-default .mobile-logo li.logo{
+        display: block;
+        width: 172px;
+    }
+
+    .mobile-logo{
+        display: block;
+        height: 1px !important;
+    }
+    .navbar-nav li.logo .navbar-brand {
+        height: 16px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        top: -67px;
+    }
+    .fixed .navbar-default .navbar-nav li.logo .navbar-brand {
+        height: 16px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        top: -75px;
+    }
+    .navbar-toggle{
+        top: -8px;
+    }
+    .navbar-collapse.in {
+        overflow-y: hidden;
+    }
+    div#bs-example-navbar-collapse-1 {
+        /* display: block; */
+        text-align: center;
+        top: 16px;
+        position: relative;
+        padding-bottom: 5px;
+    }
+    .counter-box h2 {
+        font-size: 35px;
+        color: #fff;
+        font-weight: 300;
+        margin: 0;
+        text-transform: uppercase;
+        padding: 0;
+        margin-bottom: 20px;
+        margin-top: 81px;
+    }
+    .couner-box {
+        position: relative;
+        width: 160px;
+        height: 92.38px;
+        background-color: transparent;
+        margin: 60.19px 1px;
+        border-left: solid 2px #ffffff;
+        border-right: solid 2px #ffffff;
+        /*float: left;   */
+    }
+    .couner-box {
+        float: none;
+        display: inline-block;
+    }
+    .couner-box b {
+        font-size: 55px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        font-size: 72px;
+        position: absolute;
+        top: 36px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .couner-box p {
+        font-size: 35px;
+        font-weight: 300;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 8px;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -moz-transform: scaleY(0.5774) rotate(-45deg);
+        -o-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        position: absolute;
+        left: 90px;
+        top: 109px;
+        text-shadow: -8px 9px 3px #fff;
+    }
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+    .section-title h2:before{
+        bottom: 0;
+    }
+    input#email{
+        margin-left: 0;
+    }
+    .submit-btn{
+        left: 0;
+    }
+
+    .submit-btn:before, .submit-btn:after{
+        display: none;
+    }
+    .submit-btn{
+        height: 50px;
+    }
+    .submit-btn .pe-7s-mail{
+        font-size: 60px
+    }
+}
+
+
+
+.mydiv{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.mydiv2{
+    margin-top: 200px;
+}
+
+.div1 .div2{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
